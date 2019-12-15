@@ -36,3 +36,10 @@ nav ul li{
   border-radius: 10px;
   box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
 }
+
+.toggle-theme button{
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+}

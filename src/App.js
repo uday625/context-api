@@ -4,15 +4,22 @@ import Booklist from './components/Booklist';
 
 import './App.css'
 import ThemeContextProvider from './context/ThemeContext';
+import ToggleTheme from './components/ToggleTheme';
+import AuthContextProvider from './context/AuthContext';
 
 function App() {
   return (
-    <div className="App">
-      <ThemeContextProvider>
-        <Navbar/>
-        <Booklist/>
-      </ThemeContextProvider>
-    </div>
+   
+      <AuthContextProvider>
+        <ThemeContextProvider>
+          <div className="App">
+            <Navbar/>
+            <Booklist/>
+            <ToggleTheme/>
+          </div>
+        </ThemeContextProvider>
+      </AuthContextProvider>
+   
   );
 }
 
