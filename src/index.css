@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html, body {
+  background: #FCEEB5;
+  font-family: Abel, Arial, Verdana, sans-serif;
+  font-size: medium;
+  margin:auto;
+}
+
+nav{
+  padding:5px;
+}
+
+nav ul{
+  padding:0px
+}
+
+nav ul li{
+  display: inline-block;
+  margin:0 10px;
+}
+
+.book-list{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+}
